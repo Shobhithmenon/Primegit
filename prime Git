@@ -1,0 +1,39 @@
+//
+//  main.cpp
+//  PrimeNumber
+//
+//  Created by Shobhith M on 04/10/18.
+//  Copyright © 2018 Shobhicode. All rights reserved.
+//
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   
+    int count,low,high,flag;
+    
+    cout<<"Prime Number till what?";
+    cin>>high;
+    low=2;
+    while(low < high){
+        flag=0;
+    for(count=2;count<=low/2;++count){
+        if(low%count==0){
+            flag=1;
+            break;
+        
+            
+        }}
+        if(flag==0)
+            cout<<low<<"\t";
+           ++low;
+        
+    
+    }
+    
+    
+    return 0;
+
+    
+}
